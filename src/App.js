@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-
+import {Grid } from "./Grid/grid"
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -39,8 +39,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             {/* Edit <code>src/App.js</code> and save to reload. */}
-            Test by Yasmin
+            Test by Yasmin :)
           </p>
+          <Grid />
           <LambdaDemo />
         </header>
       </div>
